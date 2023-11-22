@@ -15,6 +15,10 @@ import { ServiceProductImageEventDetailComponent } from './service-product-image
 import { ServiceProductHttpHandleErrorComponent } from './service-product-http-handle-error/service-product-http-handle-error.component';
 import { Ex92Component } from './ex92/ex92.component';
 import { Ex93Component } from './ex93/ex93.component';
+import { DongABankComponent } from './dong-abank/dong-abank.component';
+import { FakeProductComponent } from './fake-product/fake-product.component';
+import { FakeProduct2Component } from './fake-product2/fake-product2.component';
+import { BitcoinpriceComponent } from './bitcoinprice/bitcoinprice.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +31,11 @@ import { Ex93Component } from './ex93/ex93.component';
     ServiceProductImageEventDetailComponent,
     ServiceProductHttpHandleErrorComponent,
     Ex92Component,
-    Ex93Component
+    Ex93Component,
+    DongABankComponent,
+    FakeProductComponent,
+    FakeProduct2Component,
+    BitcoinpriceComponent
   ],
   imports: [
     BrowserModule,
