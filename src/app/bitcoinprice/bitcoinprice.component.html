@@ -3,12 +3,23 @@
   </div>
   
   <div *ngIf="data">
-    <p>Last Updated: {{ data.time.updated }}</p>
-    <p>Updated ISO: {{ data.time.updatedISO }}</p>
-    <p>Updated UK: {{ data.time.updateduk }}</p>
-    <p>Disclaimer: {{ data.disclaimer }}</p>
-    <p>Chart Name: {{ data.chartName }}</p>
+
     <table >
+      <tr>
+        <td colspan="5">Last Updated: {{ data.time.updated }}</td>
+      </tr>
+      <tr>
+        <td colspan="5">Updated ISO: {{ data.time.updatedISO }}</td>
+      </tr>
+      <tr>
+        <td colspan="5">Updated UK: {{ data.time.updateduk }}</td>
+      </tr>
+      <tr>
+        <td colspan="5">Disclaimer: {{ data.disclaimer }}</td>
+      </tr>
+      <tr>
+        <td colspan="5">Chart Name: {{ data.chartName }}</td>
+      </tr>
         <tr>
           <th>Code</th>
           <th>Symbol</th>

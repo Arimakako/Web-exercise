@@ -23,10 +23,10 @@ const routes: Routes = [
 {path:'service-product-image-event/:id',component:ServiceProductImageEventDetailComponent},
 {path:'service-product-http-handle-error',component:ServiceProductHttpHandleErrorComponent},
 { path:'ex93',component:Ex93Component},
-{path: 'dong-abank',component: DongABankComponent},
-{path: 'fake-product',component: FakeProductComponent},
-{path:'fake-product2',component:FakeProduct2Component},
-{path:'bitcoin',component:BitcoinpriceComponent}
+{path: 'dongabank',component: DongABankComponent},
+{path: 'fakeproduct',component: FakeProductComponent},
+{path:'fakeproduct2',component:FakeProduct2Component},
+{path:'bitcoinprice',component:BitcoinpriceComponent}
 ];
 
 @NgModule({
