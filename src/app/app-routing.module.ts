@@ -13,6 +13,13 @@ import { DongABankComponent } from './dong-abank/dong-abank.component';
 import { FakeProductComponent } from './fake-product/fake-product.component';
 import { FakeProduct2Component } from './fake-product2/fake-product2.component';
 import { BitcoinpriceComponent } from './bitcoinprice/bitcoinprice.component';
+import { BooksComponent } from './books/books.component';
+import { BookDetailComponent } from './book-detail/book-detail.component';
+import { BookNewComponent } from './book-new/book-new.component';
+import { BookUpdateComponent } from './book-update/book-update.component';
+import { BookDeleteComponent } from './book-delete/book-delete.component';
+import { HelloComponent } from './hello/hello.component';
+import { FileUploadComponent } from './file-upload/file-upload.component';
 const routes: Routes = [
   {path: 'ex89', component: Ex89Component},
   {path: 'ex90', component: Ex90Component},
@@ -26,7 +33,14 @@ const routes: Routes = [
 {path: 'dongabank',component: DongABankComponent},
 {path: 'fakeproduct',component: FakeProductComponent},
 {path:'fakeproduct2',component:FakeProduct2Component},
-{path:'bitcoinprice',component:BitcoinpriceComponent}
+{path:'bitcoinprice',component:BitcoinpriceComponent},
+{path:'book',component:BooksComponent},
+{path: 'bookdetail',component:BookDetailComponent},
+{path: 'booknew',component:BookNewComponent},
+{path: 'bookupdate',component:BookUpdateComponent},
+{path:'bookdelete',component:BookDeleteComponent},
+{path:'hello',component:HelloComponent},
+{path: 'uploadfile', component: FileUploadComponent},
 ];
 
 @NgModule({

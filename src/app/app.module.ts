@@ -19,6 +19,13 @@ import { DongABankComponent } from './dong-abank/dong-abank.component';
 import { FakeProductComponent } from './fake-product/fake-product.component';
 import { FakeProduct2Component } from './fake-product2/fake-product2.component';
 import { BitcoinpriceComponent } from './bitcoinprice/bitcoinprice.component';
+import { BooksComponent } from './books/books.component';
+import { BookDetailComponent } from './book-detail/book-detail.component';
+import { BookNewComponent } from './book-new/book-new.component';
+import { BookUpdateComponent } from './book-update/book-update.component';
+import { BookDeleteComponent } from './book-delete/book-delete.component';
+import { HelloComponent } from './hello/hello.component';
+import { FileUploadComponent } from './file-upload/file-upload.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +42,14 @@ import { BitcoinpriceComponent } from './bitcoinprice/bitcoinprice.component';
     DongABankComponent,
     FakeProductComponent,
     FakeProduct2Component,
-    BitcoinpriceComponent
+    BitcoinpriceComponent,
+    BooksComponent,
+    BookDetailComponent,
+    BookNewComponent,
+    BookUpdateComponent,
+    BookDeleteComponent,
+    HelloComponent,
+    FileUploadComponent
   ],
   imports: [
     BrowserModule,
