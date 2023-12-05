@@ -20,6 +20,10 @@ import { BookUpdateComponent } from './book-update/book-update.component';
 import { BookDeleteComponent } from './book-delete/book-delete.component';
 import { HelloComponent } from './hello/hello.component';
 import { FileUploadComponent } from './file-upload/file-upload.component';
+import { CurriculumDetailComponent } from './curriculum-detail/curriculum-detail.component';
+import { CurriculumUpdateComponent } from './curriculum-update/curriculum-update.component';
+import { CurriculumComponent } from './curriculum/curriculum.component';
+import { CurriculumNewComponent } from './curriculum-new/curriculum-new.component';
 const routes: Routes = [
   {path: 'ex89', component: Ex89Component},
   {path: 'ex90', component: Ex90Component},
@@ -41,6 +45,10 @@ const routes: Routes = [
 {path:'bookdelete',component:BookDeleteComponent},
 {path:'hello',component:HelloComponent},
 {path: 'uploadfile', component: FileUploadComponent},
+{path: 'curriculum', component: CurriculumComponent},
+{path: 'curriculum-detail/:id', component: CurriculumDetailComponent},
+{path: 'curriculum-update/:id', component: CurriculumUpdateComponent},
+{path: 'curriculum-new', component: CurriculumNewComponent},
 ];
 
 @NgModule({

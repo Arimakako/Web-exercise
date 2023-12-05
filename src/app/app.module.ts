@@ -26,6 +26,10 @@ import { BookUpdateComponent } from './book-update/book-update.component';
 import { BookDeleteComponent } from './book-delete/book-delete.component';
 import { HelloComponent } from './hello/hello.component';
 import { FileUploadComponent } from './file-upload/file-upload.component';
+import { CurriculumDetailComponent } from './curriculum-detail/curriculum-detail.component';
+import { CurriculumNewComponent } from './curriculum-new/curriculum-new.component';
+import { CurriculumUpdateComponent } from './curriculum-update/curriculum-update.component';
+import { CurriculumComponent } from './curriculum/curriculum.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,7 +53,11 @@ import { FileUploadComponent } from './file-upload/file-upload.component';
     BookUpdateComponent,
     BookDeleteComponent,
     HelloComponent,
-    FileUploadComponent
+    FileUploadComponent,
+    CurriculumDetailComponent,
+    CurriculumNewComponent,
+    CurriculumUpdateComponent,
+    CurriculumComponent
   ],
   imports: [
     BrowserModule,

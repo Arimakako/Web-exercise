@@ -1,8 +1,6 @@
-import { Component } from '@angular/core';
 import { HttpClient, HttpEventType } from '@angular/common/http';
-import { Subscription } from 'rxjs';
-import { finalize } from 'rxjs/operators';
-import { Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { finalize, Subscription } from 'rxjs';
 @Component({
   selector: 'app-file-upload',
   templateUrl: './file-upload.component.html',
