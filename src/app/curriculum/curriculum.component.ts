@@ -16,7 +16,7 @@ export class CurriculumComponent {
     })
   }
   deleteCurriculum(Id: any) {
-    if (window.confirm('Bạn có chắc muốn xóa giáo trình này?')) {
+    if (window.confirm('Xác nhận xóa giáo trình này?')) {
       this._service.deleteCurriculum(Id).subscribe({
         next:(data)=>{this.curriculums=data},
         error:(err)=>{this.errMessage=err}

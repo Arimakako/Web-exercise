@@ -1,8 +1,8 @@
 <p>curriculum works!</p>
 {{errMessage}}
-<h3>QUẢN LÝ THÔNG TIN SÁCH</h3>
-<a routerLink="/curriculum-new">Create New</a>
-<table class="table table -hover">
+<h3>Quản lí giáo trình</h3>
+<button class="create"><a routerLink="/curriculum-new">Create New</a></button>
+<table>
     <tr>
         <th>Tensach</th>
         <th>Giaban</th>
@@ -26,9 +26,9 @@
             <td>{{curriculum.MaCD}}</td>
             <td>{{curriculum.MaNXB}}</td>
             <td>
-                <a routerLink="/curriculum-update/{{curriculum.Id}}">Edit</a> |
-                <a routerLink="/curriculum-detail/{{curriculum.Id}}">Details</a> |
-                <button style="margin-top:5px" (click)="deleteCurriculum(curriculum.Id)">Delete</button>
+                <button><a routerLink="/curriculum-update/{{curriculum.Id}}">Edit</a></button>
+                <button><a routerLink="/curriculum-detail/{{curriculum.Id}}">Details</a></button>
+                <button (click)="deleteCurriculum(curriculum.Id)">Delete</button>
             </td>
         </tr>
     </tbody>

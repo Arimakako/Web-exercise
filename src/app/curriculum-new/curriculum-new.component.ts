@@ -23,7 +23,7 @@ export class CurriculumNewComponent {
       next:(data)=>{this.curriculums=data},
       error:(err)=>{this.errMessage=err}
       })
-    alert('Thêm giáo trình thành công');
+    alert('Thêm thành công');
     this.goBack();
   }
   

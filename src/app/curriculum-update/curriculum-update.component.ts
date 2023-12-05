@@ -35,7 +35,7 @@ export class CurriculumUpdateComponent {
     next:(data)=>{this.curriculums=data},
     error:(err)=>{this.errMessage=err}
     })
-    alert('Sửa giáo trình thành công');
+    alert('Cập nhật thành công');
     this.goBack();
   }
   goBack() {
